@@ -6,7 +6,7 @@
 
     <v-app-bar-title>
       <div class="col-12 centered">
-        <div class="text-h5 text-primary">RHEA</div>
+        <div class="text-h5 text-primary">Title</div>
       </div>
     </v-app-bar-title>
 

@@ -6,3 +6,12 @@
 @import "structure";
 @import "base";
 @import "transitions";
+
+$body-font-family: 'Oxygen';
+
+.v-application {
+	[class*='text-'] {
+		font-family: $body-font-family, sans-serif !important;
+	}
+	font-family: $body-font-family, sans-serif !important;
+}
