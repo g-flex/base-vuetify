@@ -55,5 +55,22 @@ Here is a tree / structure view of the main files
 ```
 
 ## Customizing defaults
-#### Colors
+### Colors
+<details>### Colors
+<summary>Show</summary>
+<br>
 Find a beakdown of available variabilized colors [here](https://vuetifyjs.com/en/styles/colors/#material-colors).
+<br>
+</details>
+
+---
+
+### Font
+<details>### Colors
+<summary>Show</summary>
+<br>
+Find a beakdown of available variabilized colors [here](https://vuetifyjs.com/en/styles/colors/#material-colors).
+<br>
+</details>
+
+---
