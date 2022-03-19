@@ -100,3 +100,7 @@ Then, edit `/src/assets/scss/style.scss`:
 $body-font-family: 'Oxygen';
 ```
 ---
+
+
+## Let's start
+Just run `npm run serve` and you're set! 
