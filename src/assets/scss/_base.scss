@@ -1,0 +1,49 @@
+html {
+	overflow-x: hidden; }
+body {
+	@include smallScrollbar;
+	margin: 0;
+	-webkit-tap-highlight-color: transparent;
+	position: relative;
+	min-height: 100vh;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+	outline: none;
+}
+div {
+	@include smallScrollbar;
+}
+* {
+	//font-family: $font;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.d-n {
+	display: none !important;
+}
+
+.word-break {
+	@include wordWrap;
+}
+
+.disabled {
+	opacity: 0.3 !important;
+	pointer-events: none !important;
+	-webkit-user-select: none !important;
+	-moz-user-select: none !important;
+	-ms-user-select: none !important;
+	user-select: none !important;
+}
+
+a {
+	text-decoration: underline;
+	&.no-line { text-decoration: none !important; }
+}
