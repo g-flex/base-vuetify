@@ -9,7 +9,11 @@ npm install
 
 ## Structure
 <details>
-<summary>Here is a tree / structure view of the main files</summary>
+<summary>
+
+##Here is a tree / structure view of the main files
+
+</summary>
 
 
 ```
