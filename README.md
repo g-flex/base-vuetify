@@ -1,13 +1,13 @@
 # Base Vuetify quickstart theme
 
-##Installation
+## Installation
 Clone the repo, enter it and install dependencies
 ```
 cd base-vuetify
 npm install
 ```
 
-##Structure
+## Structure
 Clone the repo, enter it and install dependencies
 ```
 cd base-vuetify
