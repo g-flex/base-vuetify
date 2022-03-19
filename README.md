@@ -81,9 +81,22 @@ import colors from 'vuetify/lib/util/colors'
 let customPrimary = colors.orange.base;
 let customSecondary = colors.green.lighten2;
 ```
-
 ---
 
-### Font
 
+### Fonts
+View a glimpse of the texts customizations by Vuetify [here](https://vuetifyjs.com/en/styles/text-and-typography/#typography).
+
+To change primary font, load it in `/src/plugins/webfontloader.js`:
+```javascript
+webFontLoader.load({
+	google: {
+		families: ["Oxygen:100,300,400,500,700,900&display=swap"],
+	},
+});
+```
+Then, edit `/src/assets/scss/style.scss`:
+```scss
+$body-font-family: 'Oxygen';
+```
 ---
