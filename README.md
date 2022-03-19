@@ -15,11 +15,17 @@ npm install
 ```
 ├── node_modules
 │   └── vuetify
+│       │ 
 │       └── lib
+│           ├── util
+│           │   └── color
+│           │       └── colors.mjs
+│           │ 
 │           └── styles
 │               └── settings
-│                   ├── _colors.scss
-│                   └── _variables.scss
+│                   └── settings
+│                       ├── _colors.scss
+│                       └── _variables.scss
 │   
 ├── package.json
 │   
@@ -59,19 +65,27 @@ npm install
 
 </details>
 
+
 ## Customizing defaults
 ### Colors
 Find a beakdown of available variabilized colors [here](https://vuetifyjs.com/en/styles/colors/#material-colors).
+
+To update default colors such as primary, secondary or other colors, edit `/src/plugins/vuetify.js`:
+```javascript
+let customPrimary = '#2352A2';
+let customSecondary = '#28EDBF';
+
+//To pick a color from vuetify presets: 
+import colors from 'vuetify/lib/util/colors'
+
+let customPrimary = colors.orange.base;
+let customSecondary = colors.pink.;
+```
+
+To 
 
 ---
 
 ### Font
 
 ---
-
-<details>
-<summary> example dropdown</summary>
-<br>
-this is the body
-<br>
-</details>

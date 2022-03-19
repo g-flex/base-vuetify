@@ -2,11 +2,12 @@
 import 'vuetify/styles'
 import "@mdi/font/css/materialdesignicons.css";
 import { aliases, mdi } from 'vuetify/lib/iconsets/mdi-svg'
+import colors from 'vuetify/lib/util/colors'
 
 // Vuetify
 import { createVuetify } from "vuetify";
 
-let customPrimary = '#2352A2';
+let customPrimary = colors.orange.base;
 let customSecondary = '#28EDBF';
 
 export default createVuetify({
