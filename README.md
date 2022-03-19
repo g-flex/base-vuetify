@@ -8,9 +8,49 @@ npm install
 ```
 
 ## Structure
-Clone the repo, enter it and install dependencies
+Here is a tree / structure view of the main files
 ```
-cd base-vuetify
-npm install
+├── node_modules
+│   └── vuetify
+│       └── lib
+│           └── styles
+│               └── settings
+│                   ├── _colors.scss
+│                   └── _variables.scss
+│   
+├── package.json
+│   
+├── public
+│   ├── favicon.ico
+│   └── index.html
+│   
+├── src
+│   ├── App.vue
+│   │   
+│   ├── assets
+│   │   └── scss
+│   │       ├── _variables.scss
+│   │       └── style.scss
+│   │   
+│   ├── components
+│   │   ├── FooterComponent.vue
+│   │   ├── HeaderComponent.vue
+│   │   └── HelloWorld.vue
+│   │   
+│   ├── main.js
+│   │   
+│   ├── plugins
+│   │   ├── vuetify.js
+│   │   └── webfontloader.js
+│   │   
+│   ├── router
+│   │   └── index.js
+│   │   
+│   └── views
+│       ├── AboutView.vue
+│       └── HomeView.vue
+│   
+└── vue.config.js
+
 ```
 
