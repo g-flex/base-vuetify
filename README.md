@@ -8,7 +8,10 @@ npm install
 ```
 
 ## Structure
-Here is a tree / structure view of the main files
+<details>
+<summary>Here is a tree / structure view of the main files</summary>
+
+
 ```
 ├── node_modules
 │   └── vuetify
@@ -51,8 +54,10 @@ Here is a tree / structure view of the main files
 │       └── HomeView.vue
 │   
 └── vue.config.js
-
 ```
+
+
+</details>
 
 ## Customizing defaults
 ### Colors
