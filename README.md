@@ -1,24 +1,16 @@
-# rhea
+# Base Vuetify quickstart theme
 
-## Project setup
+##Installation
+Clone the repo, enter it and install dependencies
 ```
+cd base-vuetify
 npm install
 ```
 
-### Compiles and hot-reloads for development
+##Structure
+Clone the repo, enter it and install dependencies
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+cd base-vuetify
+npm install
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
