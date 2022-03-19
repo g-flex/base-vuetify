@@ -1,6 +1,6 @@
 // Styles
 import 'vuetify/styles'
-import "@mdi/font/css/materialdesignicons.css";
+//import "@mdi/font/css/materialdesignicons.css";
 import { aliases, mdi } from 'vuetify/lib/iconsets/mdi-svg'
 import colors from 'vuetify/lib/util/colors'
 
@@ -8,7 +8,7 @@ import colors from 'vuetify/lib/util/colors'
 import { createVuetify } from "vuetify";
 
 let customPrimary = colors.orange.base;
-let customSecondary = '#28EDBF';
+let customSecondary = colors.green.lighten2;
 
 export default createVuetify({
 	icons: {

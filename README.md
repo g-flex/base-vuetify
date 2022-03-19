@@ -79,10 +79,8 @@ let customSecondary = '#28EDBF';
 import colors from 'vuetify/lib/util/colors'
 
 let customPrimary = colors.orange.base;
-let customSecondary = colors.pink.;
+let customSecondary = colors.green.lighten2;
 ```
-
-To 
 
 ---
 
