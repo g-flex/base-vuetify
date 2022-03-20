@@ -70,6 +70,10 @@ npm install
 ### Colors
 Find a beakdown of available variabilized colors [here](https://vuetifyjs.com/en/styles/colors/#material-colors).
 
+<details>
+<summary>Usage</summary>
+
+
 To update default colors such as primary, secondary or other colors, edit `/src/plugins/vuetify.js`:
 ```javascript
 let customPrimary = '#2352A2';
@@ -81,11 +85,19 @@ import colors from 'vuetify/lib/util/colors'
 let customPrimary = colors.orange.base;
 let customSecondary = colors.green.lighten2;
 ```
+
+
+</details>
+
 ---
 
 
 ### Fonts
 View a glimpse of the texts customizations by Vuetify [here](https://vuetifyjs.com/en/styles/text-and-typography/#typography).
+
+<details>
+<summary>Usage</summary>
+
 
 To change primary font, load it in `/src/plugins/webfontloader.js`:
 ```javascript
@@ -99,6 +111,40 @@ Then, edit `/src/assets/scss/style.scss`:
 ```scss
 $body-font-family: 'Oxygen';
 ```
+
+
+</details>
+
+---
+
+
+### Icons
+Search the icon you are looking for from the Material Design Icons' pack [here](https://vuetifyjs.com/en/features/icon-fonts/#material-design-icons).
+
+<details>
+<summary>Usage</summary>
+
+
+Load it in your component:
+```javascript
+import { mdiMenu, mdiMenuOpen } from "@mdi/js";
+//...
+data: () => ({
+	icons: {
+		menu: mdiMenu,
+		menuOpen: mdiMenuOpen
+	}
+})
+//...
+```
+And use it:
+```jsx
+<v-icon>{{ icons.mdiMenu }}</v-icon>
+```
+
+
+</details>
+
 ---
 
 
