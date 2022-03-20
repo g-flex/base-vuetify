@@ -139,7 +139,7 @@ data: () => ({
 ```
 And use it:
 ```vue
-<v-icon>{{ icons.mdiMenu }}</v-icon>
+<v-icon>{{ icons.menu }}</v-icon>
 ```
 
 
