@@ -138,7 +138,7 @@ data: () => ({
 //...
 ```
 And use it:
-```jsx
+```vue
 <v-icon>{{ icons.mdiMenu }}</v-icon>
 ```
 
@@ -166,7 +166,7 @@ data: () => ({
 //...
 ```
 And use it:
-```jsx
+```vue
 <v-img :src="images.logo" contain height="200" />
 ```
 
