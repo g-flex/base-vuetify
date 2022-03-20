@@ -148,5 +148,33 @@ And use it:
 ---
 
 
+### Images
+Similar to icons, loading local assets
+
+<details>
+<summary>Usage</summary>
+
+
+Load it in your component:
+```javascript
+//...
+data: () => ({
+	images:{
+		logo: require(`@/assets/img/logo.svg`)
+	}
+})
+//...
+```
+And use it:
+```jsx
+<v-img :src="images.logo" contain height="200" />
+```
+
+
+</details>
+
+---
+
+
 ## Let's start
 Just run `npm run serve` and you're set! 
